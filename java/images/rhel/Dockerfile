@@ -1,4 +1,4 @@
-FROM fabric8/java-centos-openjdk8-jdk:latest
+FROM fabric8/java-jboss-openjdk8-jdk:latest
 
 ENV JOLOKIA_VERSION="1.3.5" \
     PATH=$PATH:"/usr/local/s2i" \
