@@ -72,7 +72,7 @@ COPY settings.xml /home/jboss/.m2/settings.xml
 
 
 RUN mkdir -p /deployments/data
-
+RUN echo Hello Bob!!!!
 # Use the run script as default since we are working as an hybrid image which can be
 # used directly to. (If we were a plain s2i image we would print the usage info here)
 CMD [ "/usr/local/s2i/run" ]
